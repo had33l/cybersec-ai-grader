@@ -1,0 +1,271 @@
+{
+  "golden_set_size": 160,
+  "runs": {
+    "results/run_dev_v1.jsonl": {
+      "items": 96,
+      "scored": 96,
+      "failures": 0,
+      "mean_overall": 4.542,
+      "overall_counts": {
+        "1": 0,
+        "2": 4,
+        "3": 7,
+        "4": 18,
+        "5": 67
+      },
+      "overall_pct": {
+        "1": 0.0,
+        "2": 4.2,
+        "3": 7.3,
+        "4": 18.8,
+        "5": 69.8
+      },
+      "unsafe": 0,
+      "per_criterion": {
+        "accuracy": 4.73,
+        "relevance": 4.55,
+        "clarity": 4.88,
+        "completeness": 4.11,
+        "safety": 4.92
+      }
+    },
+    "results/run_test_v1.jsonl": {
+      "items": 64,
+      "scored": 64,
+      "failures": 0,
+      "mean_overall": 4.578,
+      "overall_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 7,
+        "4": 13,
+        "5": 44
+      },
+      "overall_pct": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 10.9,
+        "4": 20.3,
+        "5": 68.8
+      },
+      "unsafe": 0,
+      "per_criterion": {
+        "accuracy": 4.75,
+        "relevance": 4.64,
+        "clarity": 4.83,
+        "completeness": 4.06,
+        "safety": 4.98
+      }
+    }
+  },
+  "dataset_consistency": {
+    "results/run_dev_v1.jsonl": {
+      "rows": 96,
+      "mismatched_vs_golden_set": 0,
+      "examples": []
+    },
+    "results/run_test_v1.jsonl": {
+      "rows": 64,
+      "mismatched_vs_golden_set": 0,
+      "examples": []
+    }
+  },
+  "labels": {
+    "labellers": [
+      "hadeel",
+      "hajer"
+    ],
+    "labelled_by_a": 160,
+    "labelled_by_b": 160,
+    "labelled_by_both": 160,
+    "dropped_by_either": 0,
+    "human_human": {
+      "n": 160,
+      "exact": 64,
+      "exact_pct": 40.0,
+      "within1": 130,
+      "within1_pct": 81.2,
+      "kappa": 0.066,
+      "mean_signed_diff_a_minus_b": 0.42
+    },
+    "disagreements_2plus": 30,
+    "disagreement_ids": [
+      "CS-002",
+      "CS-011",
+      "CS-014",
+      "CS-023",
+      "CS-027",
+      "CS-031",
+      "CS-038",
+      "CS-048",
+      "CS-052",
+      "CS-058",
+      "CS-065",
+      "CS-066",
+      "CS-073",
+      "CS-074",
+      "CS-075",
+      "CS-079",
+      "CS-090",
+      "CS-094",
+      "CS-095",
+      "CS-099",
+      "CS-106",
+      "CS-111",
+      "CS-120",
+      "CS-129",
+      "CS-134",
+      "CS-136",
+      "CS-137",
+      "CS-139",
+      "CS-143",
+      "CS-156"
+    ],
+    "consensus_items": 130
+  },
+  "judge_vs_human": {
+    "judge_vs_hadeel": {
+      "n": 160,
+      "exact": 30,
+      "exact_pct": 18.8,
+      "within1": 142,
+      "within1_pct": 88.8,
+      "kappa": 0.006,
+      "mean_signed_diff_a_minus_b": 0.81
+    },
+    "judge_vs_hajer": {
+      "n": 160,
+      "exact": 28,
+      "exact_pct": 17.5,
+      "within1": 102,
+      "within1_pct": 63.8,
+      "kappa": -0.023,
+      "mean_signed_diff_a_minus_b": 1.23
+    },
+    "judge_vs_consensus(rounded mean)": {
+      "n": 130,
+      "exact": 39,
+      "exact_pct": 30.0,
+      "within1": 120,
+      "within1_pct": 92.3,
+      "kappa": 0.041,
+      "mean_signed_diff_a_minus_b": 0.69
+    },
+    "confusion_human_consensus_vs_judge": {
+      "human=1,judge=2": 1,
+      "human=1,judge=3": 1,
+      "human=2,judge=3": 1,
+      "human=2,judge=4": 2,
+      "human=2,judge=5": 1,
+      "human=3,judge=3": 1,
+      "human=3,judge=4": 5,
+      "human=3,judge=5": 5,
+      "human=4,judge=3": 3,
+      "human=4,judge=4": 17,
+      "human=4,judge=5": 70,
+      "human=5,judge=3": 1,
+      "human=5,judge=4": 1,
+      "human=5,judge=5": 21
+    }
+  },
+  "bias": {
+    "position_bias": {
+      "pairs_tested": 20,
+      "consistent": 13,
+      "flipped": 7,
+      "flip_rate": 0.35,
+      "tie_in_both_orders": 0,
+      "picked_first_slot": 27,
+      "total_verdicts": 40,
+      "first_slot_rate": 0.675,
+      "skipped_unparseable": 0
+    },
+    "verbosity_bias": {
+      "items_tested": 20,
+      "score_rose": 0,
+      "score_unchanged": 20,
+      "score_dropped": 0,
+      "score_rose_rate": 0.0
+    }
+  },
+  "headline_test_run": "results/run_test_v1.jsonl",
+  "cost": {
+    "n": 64,
+    "tokens_estimated_from_words": false,
+    "mean_tokens": {
+      "gen_in": 176.2,
+      "gen_out": 183.8,
+      "judge_in": 555.1,
+      "judge_out": 68.9
+    },
+    "latency_s": {
+      "gen_mean": 30.02,
+      "gen_median": 25.97,
+      "judge_mean": 60.29,
+      "judge_median": 47.44
+    },
+    "per_1k_requests_usd": {
+      "hosted_production": 0.1367,
+      "hosted_eval": 0.2613,
+      "local_production": 2.5015,
+      "local_eval": 7.5258
+    },
+    "at_scale_usd": {
+      "100000 requests": {
+        "hosted_production": 13.67,
+        "local_production": 250.15
+      }
+    },
+    "sequential_local_serving_days_for_scaled_volume": 34.7,
+    "assumptions": {
+      "_note": "EDIT THESE to match what you actually use. Prices are USD per 1M tokens. The hosted numbers are ILLUSTRATIVE for a small hosted model - check your provider's pricing page before quoting them. Local cost = machine cost per hour (electricity + hardware amortisation).",
+      "hosted_example": {
+        "price_in_per_m": 0.15,
+        "price_out_per_m": 0.6
+      },
+      "local": {
+        "cost_per_hour_usd": 0.3,
+        "note": "assumed laptop/desktop GPU at ~0.30 USD/hour all-in; replace with your own estimate"
+      },
+      "scale_factor": 100,
+      "requests_unit": 1000
+    }
+  },
+  "test_run_meta": {
+    "dataset": "data/test_set.jsonl",
+    "dataset_sha256_16": "3e8fb19a42fac348",
+    "n_items": 64,
+    "system_prompt": "prompts/system_prompt_v1.txt",
+    "system_prompt_sha256_16": "506341166ecc3294",
+    "judge_prompt": "prompts/judge_prompt_v1.txt",
+    "judge_prompt_sha256_16": "9dda6efe6edde8be",
+    "answer_model": "ollama/phi3:mini",
+    "judge_model": "ollama/gemma2:9b",
+    "mock": false,
+    "git_commit": "20938f1",
+    "n_judged_ok": 64,
+    "n_parse_fail": 0,
+    "n_generation_error": 0,
+    "answer_tokens_in": 2303,
+    "answer_tokens_out": 2812,
+    "judge_tokens_in": 7592,
+    "judge_tokens_out": 904,
+    "finished_at": "2026-11-01T18:54:43"
+  },
+  "changelog": [
+    [
+      "v1",
+      "system_prompt_v1.txt, judge_prompt_v1.txt",
+      "Baseline (phi3:mini answers, gemma2:9b judges, 5-criterion rubric). Measured on the frozen dataset: test 4.58 / 5 (n=64), dev 4.54 / 5 (n=96); 0 parse failures, 0 unsafe.",
+      "4.58 / 5 (n=64/64 scored, 0 unsafe)",
+      "-"
+    ],
+    [
+      "v2",
+      "system_prompt_v2.txt",
+      "System prompt only (judge unchanged). Hypothesis: in the archived v1 run, completeness and accuracy were the weakest criteria (both 4.09 vs relevance 4.76, safety 5.00) and median answer length was ~68 words against a 150-word cap, so the cap may be suppressing coverage. v2 adds a fixed answer structure (direct answer / key steps / when to escalate), raises the cap to 200 words and tells the model to hedge unknown details instead of guessing. Risks to check: verbosity bias in the judge (longer answers scoring higher for the wrong reason - see results/bias_report.json) and more factual slips from longer answers.",
+      "NOT RUN - one full pass takes ~3 h on our CPU-only laptop and we ran out of time. v2 is a hypothesis only, so no score or delta is claimed.",
+      "n/a"
+    ]
+  ]
+}
