@@ -1,0 +1,4 @@
+requests>=2.31
+datasets>=2.19   # only needed for data/download_real_dataset.py
+reportlab
+pypdf
