@@ -1,0 +1,21 @@
+{
+  "dataset": "data/dev_set.jsonl",
+  "dataset_sha256_16": "6096bdb2029842c6",
+  "n_items": 96,
+  "system_prompt": "prompts/system_prompt_v1.txt",
+  "system_prompt_sha256_16": "506341166ecc3294",
+  "judge_prompt": "prompts/judge_prompt_v1.txt",
+  "judge_prompt_sha256_16": "9dda6efe6edde8be",
+  "answer_model": "ollama/phi3:mini",
+  "judge_model": "ollama/gemma2:9b",
+  "mock": false,
+  "git_commit": "20938f1",
+  "n_judged_ok": 96,
+  "n_parse_fail": 0,
+  "n_generation_error": 0,
+  "answer_tokens_in": 0,
+  "answer_tokens_out": 0,
+  "judge_tokens_in": 0,
+  "judge_tokens_out": 0,
+  "finished_at": "2026-11-01T18:39:02"
+}

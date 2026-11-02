@@ -1,0 +1,7 @@
+{
+  "_note": "EDIT THESE to match what you actually use. Prices are USD per 1M tokens. The hosted numbers are ILLUSTRATIVE for a small hosted model - check your provider's pricing page before quoting them. Local cost = machine cost per hour (electricity + hardware amortisation).",
+  "hosted_example": {"price_in_per_m": 0.15, "price_out_per_m": 0.60},
+  "local": {"cost_per_hour_usd": 0.30, "note": "assumed laptop/desktop GPU at ~0.30 USD/hour all-in; replace with your own estimate"},
+  "scale_factor": 100,
+  "requests_unit": 1000
+}
