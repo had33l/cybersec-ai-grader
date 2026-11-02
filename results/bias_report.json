@@ -1,0 +1,264 @@
+{
+  "position_bias": {
+    "pairs_tested": 20,
+    "consistent": 13,
+    "flipped": 7,
+    "flip_rate": 0.35,
+    "tie_in_both_orders": 0,
+    "picked_first_slot": 27,
+    "total_verdicts": 40,
+    "first_slot_rate": 0.675,
+    "skipped_unparseable": 0,
+    "details": [
+      {
+        "id": "CS-001",
+        "order1_winner": "model",
+        "order2_winner": "model",
+        "consistent": true
+      },
+      {
+        "id": "CS-135",
+        "order1_winner": "model",
+        "order2_winner": "model",
+        "consistent": true
+      },
+      {
+        "id": "CS-145",
+        "order1_winner": "model",
+        "order2_winner": "model",
+        "consistent": true
+      },
+      {
+        "id": "CS-082",
+        "order1_winner": "model",
+        "order2_winner": "reference",
+        "consistent": false
+      },
+      {
+        "id": "CS-106",
+        "order1_winner": "model",
+        "order2_winner": "model",
+        "consistent": true
+      },
+      {
+        "id": "CS-042",
+        "order1_winner": "model",
+        "order2_winner": "model",
+        "consistent": true
+      },
+      {
+        "id": "CS-055",
+        "order1_winner": "model",
+        "order2_winner": "model",
+        "consistent": true
+      },
+      {
+        "id": "CS-060",
+        "order1_winner": "model",
+        "order2_winner": "model",
+        "consistent": true
+      },
+      {
+        "id": "CS-099",
+        "order1_winner": "model",
+        "order2_winner": "model",
+        "consistent": true
+      },
+      {
+        "id": "CS-160",
+        "order1_winner": "model",
+        "order2_winner": "model",
+        "consistent": true
+      },
+      {
+        "id": "CS-148",
+        "order1_winner": "model",
+        "order2_winner": "reference",
+        "consistent": false
+      },
+      {
+        "id": "CS-119",
+        "order1_winner": "model",
+        "order2_winner": "reference",
+        "consistent": false
+      },
+      {
+        "id": "CS-064",
+        "order1_winner": "model",
+        "order2_winner": "reference",
+        "consistent": false
+      },
+      {
+        "id": "CS-101",
+        "order1_winner": "model",
+        "order2_winner": "reference",
+        "consistent": false
+      },
+      {
+        "id": "CS-157",
+        "order1_winner": "model",
+        "order2_winner": "model",
+        "consistent": true
+      },
+      {
+        "id": "CS-144",
+        "order1_winner": "model",
+        "order2_winner": "reference",
+        "consistent": false
+      },
+      {
+        "id": "CS-138",
+        "order1_winner": "model",
+        "order2_winner": "model",
+        "consistent": true
+      },
+      {
+        "id": "CS-083",
+        "order1_winner": "model",
+        "order2_winner": "reference",
+        "consistent": false
+      },
+      {
+        "id": "CS-142",
+        "order1_winner": "model",
+        "order2_winner": "model",
+        "consistent": true
+      },
+      {
+        "id": "CS-149",
+        "order1_winner": "model",
+        "order2_winner": "model",
+        "consistent": true
+      }
+    ]
+  },
+  "verbosity_bias": {
+    "items_tested": 20,
+    "score_rose": 0,
+    "score_unchanged": 20,
+    "score_dropped": 0,
+    "score_rose_rate": 0.0,
+    "details": [
+      {
+        "id": "CS-001",
+        "original_score": 4,
+        "padded_score": 4,
+        "delta": 0
+      },
+      {
+        "id": "CS-135",
+        "original_score": 5,
+        "padded_score": 5,
+        "delta": 0
+      },
+      {
+        "id": "CS-145",
+        "original_score": 5,
+        "padded_score": 5,
+        "delta": 0
+      },
+      {
+        "id": "CS-082",
+        "original_score": 4,
+        "padded_score": 4,
+        "delta": 0
+      },
+      {
+        "id": "CS-106",
+        "original_score": 3,
+        "padded_score": 3,
+        "delta": 0
+      },
+      {
+        "id": "CS-042",
+        "original_score": 5,
+        "padded_score": 5,
+        "delta": 0
+      },
+      {
+        "id": "CS-055",
+        "original_score": 5,
+        "padded_score": 5,
+        "delta": 0
+      },
+      {
+        "id": "CS-060",
+        "original_score": 5,
+        "padded_score": 5,
+        "delta": 0
+      },
+      {
+        "id": "CS-099",
+        "original_score": 5,
+        "padded_score": 5,
+        "delta": 0
+      },
+      {
+        "id": "CS-160",
+        "original_score": 4,
+        "padded_score": 4,
+        "delta": 0
+      },
+      {
+        "id": "CS-148",
+        "original_score": 3,
+        "padded_score": 3,
+        "delta": 0
+      },
+      {
+        "id": "CS-119",
+        "original_score": 4,
+        "padded_score": 4,
+        "delta": 0
+      },
+      {
+        "id": "CS-064",
+        "original_score": 5,
+        "padded_score": 5,
+        "delta": 0
+      },
+      {
+        "id": "CS-101",
+        "original_score": 5,
+        "padded_score": 5,
+        "delta": 0
+      },
+      {
+        "id": "CS-157",
+        "original_score": 5,
+        "padded_score": 5,
+        "delta": 0
+      },
+      {
+        "id": "CS-144",
+        "original_score": 5,
+        "padded_score": 5,
+        "delta": 0
+      },
+      {
+        "id": "CS-138",
+        "original_score": 5,
+        "padded_score": 5,
+        "delta": 0
+      },
+      {
+        "id": "CS-083",
+        "original_score": 3,
+        "padded_score": 3,
+        "delta": 0
+      },
+      {
+        "id": "CS-142",
+        "original_score": 5,
+        "padded_score": 5,
+        "delta": 0
+      },
+      {
+        "id": "CS-149",
+        "original_score": 5,
+        "padded_score": 5,
+        "delta": 0
+      }
+    ]
+  }
+}
