@@ -112,10 +112,3 @@ Prompt iteration: only the v1 baseline was measured. `system_prompt_v2.txt` is w
 ## Postmortem
 
 See `postmortem.md`.
-
-
-## Notes
-
-- No API keys are stored in this repo; `OPENAI_API_KEY` is only read from the environment.
-- Local inference: CPU only, 16 GB RAM, so models are slow (see Cost). Do not run two jobs against Ollama at once - that
-  crashed it repeatedly (see postmortem).
